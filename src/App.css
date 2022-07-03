@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.coinsContainer {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  color: black;
+  background: #3C3B3F;
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  
+  background: linear-gradient(to right, #605C3C, #3C3B3F); 
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+  background: #3C3B3F;
+  background: -webkit-linear-gradient(to left, #605C3C, #3C3B3F); 
+  background: linear-gradient(to left, #605C3C, #3C3B3F); 
+
+  
+
+
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.inputField {
+  padding-left: 15px;
+  font-size: 15px;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5pt 5pt slategray;
+  color: slategray;
+}
+
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1.brand {
+    padding-bottom: 15px;
   }
 }
