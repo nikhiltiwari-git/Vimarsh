@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+### A webpage which Provides a complete easy solution to begin your investment journey.
+Connect with your peers and get to know what others are talking about.\
+Keep you time clean and removes the hectic process of scorolling pages in a loop.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
