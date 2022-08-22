@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+  
+}
+/* form{
+  padding-top: 12px;
+} */
+.coinsContainer {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  color: black;
+  background: #3C3B3F;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: rgb(197, 236, 218);
+  font-family: 'Times New Roman', Times, serif;
+  background: #3C3B3F;
+
+}
+
+/* .brand{
+  font-size: 40px;
+} */
+
+.links{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.inputField {
+  
+  padding-left: 15px;
+  font-size: 15px;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5pt 5pt slategray;
+  color: slategray;
+}
+
+.icon{
+    width: 12rem;
+    margin-right: 1.8rem;
+    padding-bottom: 2px;
+    height: 40px;
+    width: 40px;
+    clip-path: circle(55px at center);
+    vertical-align: bottom;
+    
+}
+
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1.brand {
+    padding-bottom: 15px;
+  }
+}
