@@ -18,11 +18,10 @@
 
 }
 
-.coinLogo {
-    width: 8rem;
-    margin-top: 1.2rem;
-    height: 40px;
-    width: 40px;
+.newsLogo {
+    margin-top: 1.5rem;
+    height: 120px;
+    width: 120px;
     clip-path: circle(60px at center);
 }
 

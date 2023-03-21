@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.cryptoCoin {
+    font-family: 'Roboto','sans-serif';
+    overflow: hidden;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    width: 300px;
+    margin: 2rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+
+    background: rgb(217,180,224); 
+    background: radial-gradient(circle, 
+    rgba(217,180,224,0.4901669285878414) 0%, 
+    rgba(138,206,220,0.9691585252264968) 100%);
+
+}
+
+.coinLogo {
+    margin-top: 1.2rem;
+    height: 40px;
+    width: 40px;
+    clip-path: circle(60px at center);
+}
+
+.coinNameWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    font-weight: 700;
+}
+
+.coinName {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.coinSymbol {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+.priceContainerUP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding: 0.5rem;
+    background-color: #257f25;
+}
+
+.priceContainerDOWN {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding: 0.5rem;
+    background-color: #ab3030;
+}
+
+svg {
+    background-color: transparent;
+}
+
+.priceChange {
+    background-color: transparent;
+    padding-left: 10px;
+    padding-top: 15px;
+    text-shadow: 0 0 14px slateblue;
+}
+
+.coinPrice {
+    width: auto;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.coinMarketcap {
+    width: auto;
+    padding-top: 8px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.coinVolume {
+    width: auto;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}

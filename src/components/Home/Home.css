@@ -5,7 +5,9 @@
     background: #3C3B3F;
 
 }
-
+p{
+    font-size:large;
+}
 .quote{
     display: flex;
     justify-content: center;

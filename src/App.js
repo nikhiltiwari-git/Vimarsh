@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Chat from './components/Chat';
-import News from './components/News';
-import Prices from './components/Prices';
-import Home from './components/Home';
+import Navbar from './components/Navbar/Navbar';
+import News from './components/News/News.js';
+import Coin from './components/Coin/Coin';
+import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
+
 // eslint-disable-next-line
 import {BrowserRouter as Router ,Route ,Routes } from 'react-router-dom';
 
@@ -17,12 +18,10 @@ function App() {
             <Navbar />
                 <Routes>  
                     <Route path="/" element={<Home/>} />
-                    <Route path="/prices" element={<Prices/>} />
-                    <Route path="/news" element={<News/>} />
-                    <Route path="/chat" element={<Chat/>} /> 
-
-                   
+                    <Route path="/prices" element={<Coin/>} />
+                    <Route path="/news" element={<News/>} />                   
                 </Routes>
+                <Footer />
             </div>
             
         </Router>   

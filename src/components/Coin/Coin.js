@@ -1,12 +1,12 @@
 import axios from "axios";
-import '../App.css';
-import './Prices.css';
-import Coin from './Coin';
+// import '.../App.css';
+import './coin.css';
+import CoinObject from "./CoinObject";
 import { useEffect, useState } from "react";
 
 
 
-function Prices() {
+function Coin() {
     const [coins, setCoins] = useState([]);
     const [search, setSearch] = useState("");
   
@@ -17,7 +17,7 @@ function Prices() {
         )
         .then((res) => {
           setCoins(res.data);
-        //   console.log(res.data); 
+          console.log(res.data); 
         })
         .catch((error) => console.log(error));
     }, []); 
@@ -45,7 +45,7 @@ function Prices() {
         <div className="coinsContainer">
         {filteredCoins.map((coin) => {
             return (
-              <Coin
+              <CoinObject
                 key={coin.id}
                 name={coin.name}
                 price={coin.current_price}
@@ -62,4 +62,4 @@ function Prices() {
     );
   }
   
-  export default Prices;
+  export default Coin;
